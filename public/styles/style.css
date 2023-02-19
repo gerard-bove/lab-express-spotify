@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    padding-left: 10px;
+}
+#home-image {
+    background-image: url('/images/spotify-background.jpeg');
+    background-size: cover;
+    height: 600px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home-image button {
+    margin-top: 8px;
+}
+
+#album-estilo div {
+    display: flex;
+    flex-direction: column;
+}
+
+#album-estilo div img {
+    height: 300px;
+    width: fit-content;
+}
+
+#album-estilo p {
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+#album-estilo a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+#tracks-estilo {
+    background-color: bisque;
+}
+
+#tracks-estilo h2 {
+    margin: 0;
+}
+
+#tracks-estilo a {
+    text-decoration: none;
+}
